@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Portofolio Rizal</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: aqua">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rizal Fajar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/rizal fajar.jpg" alt="Rizal Fajar" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Rizal Fajar</h1>
+      <p class="lead">Mahasiswa</p>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="countainer">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row row justify-content-center fs-5">
+          <div class="col-md-4">
+            <p>Nama Lengkap : Rizal Fajar Afriansyah</p>
+            <p>Tempat,Tangal Lahir : Magelang, 8 Agustus 1998</p>
+            <p>Alamat : Dusun Nglegok, Desa Sriwedari, Kec.Salaman, Kab.Magelang</p>
+            <p></p>
+          </div>
+          <div class="col-md-4">
+            <p>Saya adalah mahasiswa Universitas Muhammadiyah Magelang fakultas teknik prodi teknologi informasi D3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir about -->
+
+    <!-- project -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Pengalaman</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/ckb.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">pernah bekerja di PT.Cipta Krida Bahari Surabaya bertugas sebagai checker gudang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/scout.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Aktif di organisasi Saka Pariwisata yang berpangkalan di Taman Wisata Candi Borobudur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/touring.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Touring ke berbagai tempat wisata alam seperti gunung,pantai.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir project -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="name" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" aria-describedby="emai" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary mb-3">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer class="text-center pb-5 mb-3" style="background-color: aqua">
+      <p>Created with love by <a href="https://www.instagram.com/rizal_fajaraf/">Rizal Fajar</a></p>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
